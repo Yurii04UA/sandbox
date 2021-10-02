@@ -66,7 +66,22 @@ console.log("Обьем цилиндра V ровна h*s и ровна = " + s+
 let a = 11;
 let b = 18;
 
+if(a == b){
+    console.log("yes `a`= `b`")
+}else if(a>b){
+    console.log("yes a>b")
+}else if(a+3>b){
+    console.log("yes a+3>b") 
+}else{
+    console.log("yes,you ##")
+}
 
+
+let number1 = 30;
+while (number1  < 40){
+    number1++;
+    console.log(number1);
+}
 // while(candies > 0){
 //     console.log(`Открыть`);
 //     console.log(`Взять`);
